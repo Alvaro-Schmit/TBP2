@@ -269,8 +269,8 @@ h4{
 } */
 
 .zoom:hover{
-    background-color: rgb(244, 182, 9);
-    border: rgb(255, 255, 255) solid 2px;
+    background-color: rgba(85, 66, 14, 0.527);
+    border: rgba(223, 173, 35, 0.733) solid 2px;
 }
 
 
