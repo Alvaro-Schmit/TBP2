@@ -9,7 +9,7 @@ form input {
     width:100%;
     font-size: x-large;
     background-color: #ffffff;
-    border:rgb(244, 182, 9) solid 2px;
+    border:rgb(85, 81, 70) solid 2px;
     
 }
 
@@ -53,11 +53,11 @@ form textarea {
 }
 .boton_form {
     border: #ffffff solid 2px;
-    background-color: rgb(244, 182, 9) ;
+    background-color: rgb(85, 81, 70) ;
 }
 
 #btn:hover{
-    border: rgb(244, 182, 9) solid 2px;
+    border: rgb(75, 70, 58) solid 2px;
     transform: scale(1, 1.08);
    background-color: #ffffff;
    color: #333333;
