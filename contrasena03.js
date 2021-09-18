@@ -5,7 +5,7 @@ function ir(event){
   if(document.form.password.value === c){
     window.location="OnePage01.html";
   }else{
-    alert("Contrasena incorreta");
+    alert("Contrasenha incorreta");
   }
 }
 
