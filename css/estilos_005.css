@@ -31,6 +31,7 @@ main {
 #slayder img{
     border-radius: 2px;
     width: 100%;
+    border: #33333381 solid 4px;
     
     }
 
