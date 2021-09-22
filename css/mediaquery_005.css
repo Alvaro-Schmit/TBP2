@@ -28,7 +28,7 @@ body{
         display: none;
   /*////////////////   slyder   ///////////*/
     }
-    #slayder{
+    .slyder{
         display: none;
     }
     #slayder2{
@@ -227,7 +227,11 @@ form input {
             width: 100%;
             
         }
-
+        .slyder{
+       
+            border:rgba(253, 251, 251, 0.7) 3px solid  ;
+        }
+     
 /*////////////////   Info flexbox    ///////////*/
 .information{
    
@@ -316,9 +320,9 @@ form input {
         /*////////////////   slyder   ///////////*/
     
     
-    #slayder{
+    .slyder{
        
-        margin-top: 8px;
+        border:rgba(253, 251, 251, 0.7) 4px solid  ;
     }
  
 #bolamovil{
@@ -360,7 +364,7 @@ form input {
     }
     #reglasBox3 p{
         line-height: 25px;
-        color:#ffff;
+        color:#333333;
         padding:0px 3% 0px 2.2%;
        
     }
@@ -401,7 +405,7 @@ form input {
 /*////////////////////////////////////////////////////////*/
 
 @media only screen and (min-width: 780px) and (max-width: 1024px){
-    .efecto_imagen,.infocierre{
+    .efecto_imagen,.efecto_imagenPointer{
         width: 280px;
     height: 160px;
         border-radius: 4px;

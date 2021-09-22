@@ -24,14 +24,16 @@ main {
     width: 150px;
     margin-top: 60px;
 }
-
-#slayder1{
-    margin-bottom: 0px;
+.slyder{
+margin: 8px;
+border:rgba(253, 251, 251, 0.7) 6px solid  ;
+border-radius: 2px;
 }
-#slayder img{
+
+.slyder img{
     border-radius: 2px;
     width: 100%;
-    border: #33333381 solid 4px;
+ 
     
     }
 
@@ -151,7 +153,7 @@ h4{
 .boxBlue{
     border-radius: 6px;
     text-align: center;
-    color: #ffffff;
+    color: #333333;
     margin: 10px;
 
     background-color: rgba(253, 251, 251, 0.7);

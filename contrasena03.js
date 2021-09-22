@@ -1,7 +1,7 @@
 
 function ir(event){
   event.preventDefault();
-  let c = "1001";
+  let c = "101";
   if(document.form.password.value === c){
     window.location="OnePage01.html";
   }else{
