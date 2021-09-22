@@ -82,8 +82,6 @@ body{
     text-align: center;
     color: #ffffff;
     margin: 4px 7px 20px 7px;
-
-    background-color: rgba(51, 51, 51, 1);
     box-sizing: border-box;
     padding: 8px; 
 }
@@ -96,12 +94,12 @@ body{
     margin-left: 0px;
     margin-right: 0px;
 }
-.efecto_imagen,.infocierre{
+.efecto_imagen, .efecto_imagenPointer{
     padding: 5px;
     width: 340px;
     height: 200px;
     margin: 24px 0px 5px 0px ;
-    border: solid rgb(244, 182, 9) 0.4px;
+  
    
   
 }
@@ -135,7 +133,6 @@ body{
 #reglasBox3 p{
     text-align: left;
     font-size: 18px;
-    color:#ffffff;
     margin-bottom: 0px !important;
 }
 
@@ -147,7 +144,6 @@ body{
 
 .information h3{
     padding-top: 4%;
-    color:#ffffff;
     font-weight: bold;
 }
 #reglasBox3 h3{
@@ -264,7 +260,7 @@ form input {
     margin-bottom: 0px !important;
 
 }
-.efecto_imagen,.infocierre{
+.efecto_imagen,.efecto_imagenPointer{
     border-radius: 4px;
 }
 
@@ -368,7 +364,7 @@ form input {
         padding:0px 3% 0px 2.2%;
        
     }
-    .efecto_imagen,.infocierre{
+    .efecto_imagen, .efecto_imagenPointer{
         border-radius: 4px;
       
     }
@@ -462,7 +458,7 @@ form input {
 
 @media only screen and (min-width: 1200px){
 
-.efecto_imagen,.infocierre{
+.efecto_imagen,.efecto_imagenPointer{
     width: 520px;
     height: 280px;
 }

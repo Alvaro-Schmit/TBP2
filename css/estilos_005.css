@@ -57,6 +57,7 @@ a{
 }
 .bolasDeMenu{
     width: 150px;
+    transition: 900ms;
 }
 #bola4{
     z-index: 24;
@@ -65,28 +66,39 @@ a{
 }
 .bolasDeMenu:hover {
  opacity: 0.90;
-    transform: scale3d(1.1, 1.1, -3);
+    transform: scale3d(1.06, 1.08, -3);
 } 
 
 
 /*///////////////////////       ////////////////////////*/
 
-.efecto_imagen, .infocierre {
-    border: solid rgba(29, 23, 9, 0.582) 4px;
-    border-radius: 2px;
-    transition: opacity;
+.efecto_imagen, .efecto_imagenPointer {
+    border: solid rgba(29, 23, 9, 0.582) 3px;
+    border-radius: 6px;
+    padding: 5px;
+    width: 400px;
+    height: 240px;
+    margin: 7px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    transition: 800ms;
 }
 
 .efecto_imagen:hover {
-  
-    
-    cursor: pointer;
-    border: solid rgba(0, 0, 0, 0.9) 1.3px;
-   
-    border-radius: 6px;
-    box-shadow: 4px 9px 20px rgba(0, 0, 0, 0.75);
-    transform: scale3d(1.02, 1.02, 1);
+    border: solid rgba(0, 0, 0, 0.739) 3px;
+    border-radius: 3px;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.75);
+    transform: scale(1.01, 1.0);
 }
+
+.efecto_imagenPointer:hover {
+    cursor: pointer;
+    border: solid rgba(245, 200, 3, 0.514) 3px;
+    border-radius: 3px;
+    box-shadow: 3px 7px 12px rgba(0, 0, 0, 0.75);
+    transform: scale(1.03, 1.03);
+}
+
 
 .footer{
     width: 90%;
@@ -130,15 +142,7 @@ h4{
     justify-content:space-evenly;
 }
 
-.efecto_imagen, .infocierre{
-    border-radius: 6px;
-    padding: 5px;
-    width: 400px;
-    height: 240px;
-    margin: 7px;
-    margin-top: 24px;
-    margin-bottom: 12px;
-}
+
 .videosCards{
     margin-left: 20px;
     margin-right: 20px;
@@ -273,6 +277,48 @@ h4{
     background-color: rgba(85, 66, 14, 0.527);
     border: rgba(223, 173, 35, 0.733) solid 2px;
 }
+
+.yogaAoVivo{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: fit-content;
+  
+}
+ #yoga1 , #yoga2{
+     width: 120px;
+     height: 35px;
+     margin-right: 10px;
+     margin-bottom: 14px;
+     border: rgba(223, 173, 35, 0.733) solid 2px;
+     text-decoration: none;
+    border-radius: 4px;
+     background-color: rgb( 255, 255, 255);
+     padding: 0.5%;
+     box-sizing: border-box;
+     transition: 1s;
+    
+   
+ }
+
+#yoga1:hover{
+    transform: scale3d(1.05, 1.05, 1);
+    
+    background-color: rgba(85, 66, 14, 0.527);
+    border: rgba(223, 173, 35, 0.733) solid 4px; 
+    
+   
+}
+
+/* #yoga2 :hover{
+    background-color: rgba(85, 66, 14, 0.527);
+    border: rgba(223, 173, 35, 0.733) solid 2px; 
+} */
+ .yogaAoVivo h4{
+     padding-top: 3px;
+     font-size: 22px;
+ }
 
 
     
