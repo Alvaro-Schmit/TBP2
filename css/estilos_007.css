@@ -304,16 +304,7 @@ h4{
    
  }
 
-#yoga1:hover{
-    transform: scale3d(1.05, 1.05, 1);
-    
-    background-color: rgba(85, 66, 14, 0.527);
-    border: rgba(223, 173, 35, 0.733) solid 4px; 
-    
-   
-}
-/* 
-#yoga1:hover{
+/* #yoga1:hover{
     transform: scale3d(1.05, 1.05, 1);
     
     background-color: rgba(85, 66, 14, 0.527);
@@ -321,6 +312,15 @@ h4{
     
    
 } */
+
+#yoga2:hover{
+    transform: scale3d(1.05, 1.05, 1);
+    
+    background-color: rgba(85, 66, 14, 0.527);
+    border: rgba(223, 173, 35, 0.733) solid 4px; 
+    
+   
+}
 
  .yogaAoVivo h4{
      padding-top: 3px;
